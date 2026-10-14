@@ -24,7 +24,7 @@ public class Server {
 
         try (ServerSocket serverSocket = new ServerSocket(PORT)) {
 
-            System.out.println("Server started on port " + PORT);
+            System.out.println("Server started on port: " + PORT);
             System.out.println("Waiting for clients...\n");
 
             while (true) {
