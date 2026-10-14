@@ -59,7 +59,7 @@ public class Client2 {
                 } catch (IOException e) {
 
                     System.out.println(
-                            "Connection closed."
+                            "Connection closed!"
                     );
                 }
             });
